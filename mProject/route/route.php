@@ -19,18 +19,18 @@ return [
 
 ];*/
 //首页
-Route::any('/','home/index/index');//首页
-Route::any('login','home/login/login');//登录
-Route::any('register','home/login/register');//注册
+Route::any('/','home/index/index')->name('/');//首页
+Route::any('login','home/login/login')->name('login');//登录
+Route::any('register','home/login/register')->name('register');//注册
 
 //动态
-Route::get('message','home/message/message');//动态
+Route::get('message','home/message/message')->name('message');//动态
 
 //购物车
-Route::get('cart','home/cart/shopcart');//购物车
+Route::get('cart','home/cart/shopcart')->name('cart');//购物车
 
 //订单
-Route::get('order','home/order/order');//订单
+Route::get('order','home/order/order')->name('order');//订单
 
 //我的
-Route::get('member','home/member/member');//我的
+Route::get('member','home/member/member')->name('member');//我的
