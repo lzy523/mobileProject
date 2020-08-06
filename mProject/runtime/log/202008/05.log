@@ -1,0 +1,3564 @@
+---------------------------------------------------------------
+
+[2020-08-05T18:16:48+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.097006s] [吞吐率：10.31req/s] [内存消耗：1,682.27kb] [文件加载：58]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:17:16+08:00] 127.0.0.1 GET www.mobile.com/index.php
+[运行时间：0.085004s] [吞吐率：11.76req/s] [内存消耗：1,681.86kb] [文件加载：58]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:17:21+08:00] 127.0.0.1 GET www.mobile.com/index.php/think
+[运行时间：0.057004s] [吞吐率：17.54req/s] [内存消耗：1,148.05kb] [文件加载：46]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+  'rule' => 'think',
+  'route' => 
+  Closure::__set_state(array(
+  )),
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:17:50+08:00] 127.0.0.1 GET www.mobile.com/index.php/hello/xiaoming
+[运行时间：0.127007s] [吞吐率：7.87req/s] [内存消耗：1,705.38kb] [文件加载：61]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+  'rule' => 'hello/<name>',
+  'route' => 'index/hello',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'name' => 'xiaoming',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'xiaoming',
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:19:28+08:00] 127.0.0.1 GET www.mobile.com/index.php/hello/xiaoming
+[运行时间：0.052003s] [吞吐率：19.23req/s] [内存消耗：1,657.62kb] [文件加载：56]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'hello/<name>',
+  'route' => 'index/hello',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'name' => 'xiaoming',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'xiaoming',
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:27:01+08:00] 127.0.0.1 GET www.mobile.com/index.php/hello/xiaoming
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,657.62kb] [文件加载：56]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'hello/<name>',
+  'route' => 'index/hello',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'name' => 'xiaoming',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'xiaoming',
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:27:07+08:00] 127.0.0.1 GET www.mobile.com/hello/xiaoming
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：1,657.91kb] [文件加载：56]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'hello/<name>',
+  'route' => 'index/hello',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'name' => 'xiaoming',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'xiaoming',
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:45:35+08:00] 127.0.0.1 GET www.mobile.com/hello/xiaoming
+[运行时间：0.047003s] [吞吐率：21.28req/s] [内存消耗：1,658.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'Index/index'
+[ info ] [ ROUTE ] array (
+  'rule' => 'hello/<name>',
+  'route' => 'index/hello',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'name' => 'xiaoming',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'xiaoming',
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:45:41+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,682.03kb] [文件加载：57]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'Index/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:45:51+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,682.42kb] [文件加载：57]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'Index/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:46:01+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,682.25kb] [文件加载：58]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:46:14+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,682.42kb] [文件加载：58]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:46:15+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：1,682.42kb] [文件加载：58]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:46:21+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,730.41kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index/index1'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:46:22+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,730.41kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index/index1'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:53:11+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.046002s] [吞吐率：21.74req/s] [内存消耗：1,635.78kb] [文件加载：55]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T18:53:18+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,636.17kb] [文件加载：56]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:46:47+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.146008s] [吞吐率：6.85req/s] [内存消耗：1,693.74kb] [文件加载：61]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+[ error ] [0]模板文件不存在:D:\php\code\mobileProject\mProject\application\home\view\parent.html[D:\php\code\mobileProject\mProject\thinkphp\library\think\Template.php:1243]
+---------------------------------------------------------------
+
+[2020-08-05T19:48:15+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,693.70kb] [文件加载：61]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+[ error ] [0]模板文件不存在:D:\php\code\mobileProject\mProject\application\home\view\parent.html[D:\php\code\mobileProject\mProject\thinkphp\library\think\Template.php:1243]
+---------------------------------------------------------------
+
+[2020-08-05T19:48:16+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.039002s] [吞吐率：25.64req/s] [内存消耗：1,693.70kb] [文件加载：61]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+[ error ] [0]模板文件不存在:D:\php\code\mobileProject\mProject\application\home\view\parent.html[D:\php\code\mobileProject\mProject\thinkphp\library\think\Template.php:1243]
+---------------------------------------------------------------
+
+[2020-08-05T19:48:17+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.044002s] [吞吐率：22.73req/s] [内存消耗：1,693.70kb] [文件加载：61]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+[ error ] [0]模板文件不存在:D:\php\code\mobileProject\mProject\application\home\view\parent.html[D:\php\code\mobileProject\mProject\thinkphp\library\think\Template.php:1243]
+---------------------------------------------------------------
+
+[2020-08-05T19:51:47+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：1,635.13kb] [文件加载：56]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:51:57+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.041003s] [吞吐率：24.39req/s] [内存消耗：1,693.70kb] [文件加载：61]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+[ error ] [0]模板文件不存在:D:\php\code\mobileProject\mProject\application\home\view\parent.html[D:\php\code\mobileProject\mProject\thinkphp\library\think\Template.php:1243]
+---------------------------------------------------------------
+
+[2020-08-05T19:52:30+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.104006s] [吞吐率：9.61req/s] [内存消耗：1,818.84kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T19:52:30+08:00] 127.0.0.1 GET www.mobile.com/css/amazeui.min.css
+[运行时间：0.053004s] [吞吐率：18.87req/s] [内存消耗：1,683.15kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/css/style.css
+[运行时间：0.033001s] [吞吐率：30.30req/s] [内存消耗：1,683.15kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/js/jquery-1.10.2.min.js
+[运行时间：0.086005s] [吞吐率：11.63req/s] [内存消耗：1,683.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/js/popup.mini.js
+[运行时间：0.058003s] [吞吐率：17.24req/s] [内存消耗：1,683.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/js/time.js
+[运行时间：0.056004s] [吞吐率：17.86req/s] [内存消耗：1,683.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/js/jquery.min.js
+[运行时间：0.044002s] [吞吐率：22.73req/s] [内存消耗：1,683.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/js/popup.mini.js
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,683.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/js/amazeui.min.js
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：1,683.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/images/city.png
+[运行时间：0.050003s] [吞吐率：20.00req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/images/banner.png
+[运行时间：0.079505s] [吞吐率：12.58req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/images/icon1.png
+[运行时间：0.083007s] [吞吐率：12.05req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/images/icon.png
+[运行时间：0.062005s] [吞吐率：16.13req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/images/icon3.png
+[运行时间：0.094008s] [吞吐率：10.64req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:31+08:00] 127.0.0.1 GET www.mobile.com/images/icon4.png
+[运行时间：0.039002s] [吞吐率：25.64req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/icon5.png
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/s6.png
+[运行时间：0.041003s] [吞吐率：24.39req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/ts.png
+[运行时间：0.041003s] [吞吐率：24.39req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/s5.png
+[运行时间：0.044004s] [吞吐率：22.73req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/s4.png
+[运行时间：0.044004s] [吞吐率：22.73req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/s3.png
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/test.png
+[运行时间：0.047003s] [吞吐率：21.28req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/s1.png
+[运行时间：0.057003s] [吞吐率：17.54req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/s2.png
+[运行时间：0.053003s] [吞吐率：18.87req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/test1.png
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/icon2.png
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/test2.png
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:32+08:00] 127.0.0.1 GET www.mobile.com/images/test21.png
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:33+08:00] 127.0.0.1 GET www.mobile.com/images/qiandao.png
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,683.29kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:33+08:00] 127.0.0.1 GET www.mobile.com/js/jquery.min.js
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：1,683.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:33+08:00] 127.0.0.1 GET www.mobile.com/js/amazeui.min.js
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：1,683.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T19:52:33+08:00] 127.0.0.1 GET www.mobile.com/theme/default/images/favicon.png
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,684.12kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'images',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:55+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.059003s] [吞吐率：16.95req/s] [内存消耗：1,823.66kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:01:55+08:00] 127.0.0.1 GET www.mobile.com/static/css/amazeui.min.css
+[运行时间：0.057003s] [吞吐率：17.54req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'amazeui.min.css',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:55+08:00] 127.0.0.1 GET www.mobile.com/static/css/style.css
+[运行时间：0.068003s] [吞吐率：14.71req/s] [内存消耗：1,683.88kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'style.css',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:55+08:00] 127.0.0.1 GET www.mobile.com/static//static/js/time.js
+[运行时间：0.067004s] [吞吐率：14.92req/s] [内存消耗：1,683.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static//static/js/popup.mini.js
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,683.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static//static/js/jquery-1.10.2.min.js
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,683.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/js/amazeui.min.js
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,683.76kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'amazeui.min.js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static//static/js/time.js
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,683.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/js/jquery.min.js
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,683.74kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/city.png
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'city.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static//static/js/popup.mini.js
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,683.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/banner.png
+[运行时间：0.063003s] [吞吐率：15.87req/s] [内存消耗：1,683.91kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'banner.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon.png
+[运行时间：0.063003s] [吞吐率：15.87req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon1.png
+[运行时间：0.043002s] [吞吐率：23.25req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon1.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon5.png
+[运行时间：0.049003s] [吞吐率：20.41req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon5.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/s1.png
+[运行时间：0.048003s] [吞吐率：20.83req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's1.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/s2.png
+[运行时间：0.042002s] [吞吐率：23.81req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's2.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/s4.png
+[运行时间：0.043002s] [吞吐率：23.25req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's4.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/s3.png
+[运行时间：0.044002s] [吞吐率：22.73req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's3.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/s5.png
+[运行时间：0.045002s] [吞吐率：22.22req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's5.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/js/jquery.min.js
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,683.74kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/s6.png
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's6.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/ts.png
+[运行时间：0.040002s] [吞吐率：25.00req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'ts.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/test.png
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'test.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/test1.png
+[运行时间：0.047002s] [吞吐率：21.28req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'test1.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/qiandao.png
+[运行时间：0.046003s] [吞吐率：21.74req/s] [内存消耗：1,683.91kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'qiandao.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/test21.png
+[运行时间：0.052003s] [吞吐率：19.23req/s] [内存消耗：1,683.91kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'test21.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/images/test2.png
+[运行时间：0.048003s] [吞吐率：20.83req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'test2.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:56+08:00] 127.0.0.1 GET www.mobile.com/static/js/amazeui.min.js
+[运行时间：0.042002s] [吞吐率：23.81req/s] [内存消耗：1,683.76kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'amazeui.min.js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:57+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon3.png
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon3.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:57+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon2.png
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon2.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:57+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon4.png
+[运行时间：0.037003s] [吞吐率：27.02req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon4.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:01:57+08:00] 127.0.0.1 GET www.mobile.com/static/theme/default//static/images/favicon.png
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,684.71kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'theme' => 'default',
+  'static' => 'images',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:46+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.054003s] [吞吐率：18.52req/s] [内存消耗：1,657.05kb] [文件加载：58]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:07:46+08:00] 127.0.0.1 GET www.mobile.com/static/css/amazeui.min.css
+[运行时间：0.054003s] [吞吐率：18.52req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'amazeui.min.css',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:46+08:00] 127.0.0.1 GET www.mobile.com/static/css/style.css
+[运行时间：0.058003s] [吞吐率：17.24req/s] [内存消耗：1,683.88kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'style.css',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:46+08:00] 127.0.0.1 GET www.mobile.com/static//static/js/jquery-1.10.2.min.js
+[运行时间：0.057004s] [吞吐率：17.54req/s] [内存消耗：1,683.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static//static/js/popup.mini.js
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,683.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static//static/js/time.js
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,683.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/js/jquery.min.js
+[运行时间：0.040003s] [吞吐率：25.00req/s] [内存消耗：1,683.74kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/js/amazeui.min.js
+[运行时间：0.045002s] [吞吐率：22.22req/s] [内存消耗：1,683.76kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'amazeui.min.js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static//static/js/popup.mini.js
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：1,683.59kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'static' => 'js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/city.png
+[运行时间：0.055005s] [吞吐率：18.18req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'city.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon1.png
+[运行时间：0.048503s] [吞吐率：20.62req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon1.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon2.png
+[运行时间：0.052003s] [吞吐率：19.23req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon2.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/s2.png
+[运行时间：0.054003s] [吞吐率：18.52req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's2.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/s4.png
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's4.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon5.png
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon5.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/s1.png
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's1.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon4.png
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon4.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/s3.png
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's3.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/s5.png
+[运行时间：0.043003s] [吞吐率：23.25req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's5.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/s6.png
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 's6.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/js/jquery.min.js
+[运行时间：0.039002s] [吞吐率：25.64req/s] [内存消耗：1,683.74kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/ts.png
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,683.89kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'ts.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/test.png
+[运行时间：0.040003s] [吞吐率：25.00req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'test.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/js/amazeui.min.js
+[运行时间：0.043002s] [吞吐率：23.25req/s] [内存消耗：1,683.76kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'amazeui.min.js',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/test1.png
+[运行时间：0.050003s] [吞吐率：20.00req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'test1.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/test2.png
+[运行时间：0.047003s] [吞吐率：21.28req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'test2.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/test21.png
+[运行时间：0.037003s] [吞吐率：27.02req/s] [内存消耗：1,683.91kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'test21.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:47+08:00] 127.0.0.1 GET www.mobile.com/static/images/qiandao.png
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,683.91kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'qiandao.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:48+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon3.png
+[运行时间：0.033001s] [吞吐率：30.30req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon3.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:48+08:00] 127.0.0.1 GET www.mobile.com/static/images/icon.png
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'icon.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:07:48+08:00] 127.0.0.1 GET www.mobile.com/static/images/banner.png
+[运行时间：0.052003s] [吞吐率：19.23req/s] [内存消耗：1,683.91kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'banner.png',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:08:02+08:00] 127.0.0.1 GET www.mobile.com/static/css/amazeui.min.css
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,683.90kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'amazeui.min.css',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:08:02+08:00] 127.0.0.1 GET www.mobile.com/static/css/style.css
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,683.88kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'style.css',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:14:20+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.047003s] [吞吐率：21.28req/s] [内存消耗：1,823.82kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:14:21+08:00] 127.0.0.1 GET www.mobile.com/static/home/theme/default//static/home/images/favicon.png
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：1,684.88kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'home' => 'images',
+  'default' => 'static',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:14:37+08:00] 127.0.0.1 GET www.mobile.com/member.html
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,684.72kb] [文件加载：60]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:24:01+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.043003s] [吞吐率：23.25req/s] [内存消耗：1,657.21kb] [文件加载：58]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:24:07+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,657.21kb] [文件加载：58]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:24:23+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.090006s] [吞吐率：11.11req/s] [内存消耗：1,676.30kb] [文件加载：59]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:24:34+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.051003s] [吞吐率：19.61req/s] [内存消耗：1,702.88kb] [文件加载：61]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:24:44+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.104006s] [吞吐率：9.61req/s] [内存消耗：1,703.69kb] [文件加载：61]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:24:57+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.026002s] [吞吐率：38.46req/s] [内存消耗：1,676.30kb] [文件加载：59]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:25:00+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,676.30kb] [文件加载：59]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:25:13+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.440025s] [吞吐率：2.27req/s] [内存消耗：1,657.21kb] [文件加载：58]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:26:25+08:00] 127.0.0.1 GET www.mobile.com/index.php/hello/xiaoming
+[运行时间：0.042002s] [吞吐率：23.81req/s] [内存消耗：1,727.59kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:26:28+08:00] 127.0.0.1 GET www.mobile.com/index.php
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,675.91kb] [文件加载：59]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:26:37+08:00] 127.0.0.1 GET www.mobile.com/index.php/index
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,195.05kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+---------------------------------------------------------------
+
+[2020-08-05T20:26:40+08:00] 127.0.0.1 GET www.mobile.com/index.php
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,675.91kb] [文件加载：59]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:30:51+08:00] 127.0.0.1 GET www.mobile.com/home/login/login
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：1,728.52kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'login' => 'login',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:31:30+08:00] 127.0.0.1 GET www.mobile.com/home/login
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,728.27kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:31:50+08:00] 127.0.0.1 GET www.mobile.com/index/home/login
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,195.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+---------------------------------------------------------------
+
+[2020-08-05T20:31:56+08:00] 127.0.0.1 GET www.mobile.com/home/login
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,728.27kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:32:00+08:00] 127.0.0.1 GET www.mobile.com/home
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,728.27kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:32:04+08:00] 127.0.0.1 GET www.mobile.com/home/index
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,728.27kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:32:49+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.047002s] [吞吐率：21.28req/s] [内存消耗：1,675.91kb] [文件加载：59]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:33:08+08:00] 127.0.0.1 GET www.mobile.com/login/login
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,728.27kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:34:17+08:00] 127.0.0.1 GET www.mobile.com/home/login/login
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,728.52kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'login' => 'login',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:36:07+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.044002s] [吞吐率：22.73req/s] [内存消耗：1,676.27kb] [文件加载：59]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:36:15+08:00] 127.0.0.1 GET www.mobile.com/home
+[运行时间：0.049003s] [吞吐率：20.41req/s] [内存消耗：1,728.24kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:36:21+08:00] 127.0.0.1 GET www.mobile.com/home/login
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,728.24kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:37:31+08:00] 127.0.0.1 GET www.mobile.com/home/login
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,728.63kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:37:41+08:00] 127.0.0.1 GET www.mobile.com/home/
+[运行时间：0.045003s] [吞吐率：22.22req/s] [内存消耗：1,728.24kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:40:23+08:00] 127.0.0.1 GET www.mobile.com/home/login
+[运行时间：0.046003s] [吞吐率：21.74req/s] [内存消耗：1,728.24kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:40:30+08:00] 127.0.0.1 GET www.mobile.com/home/login/login
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,728.36kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'login' => 'login',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:40:43+08:00] 127.0.0.1 GET www.mobile.com/home/login/login
+[运行时间：0.043003s] [吞吐率：23.25req/s] [内存消耗：1,728.88kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'login' => 'login',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:40:44+08:00] 127.0.0.1 GET www.mobile.com/home/login/login
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,728.88kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home/index'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+  'login' => 'login',
+)
+---------------------------------------------------------------
+
+[2020-08-05T20:41:50+08:00] 127.0.0.1 GET www.mobile.com/home/login/login
+[运行时间：0.079004s] [吞吐率：12.66req/s] [内存消耗：1,864.76kb] [文件加载：64]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:41:50+08:00] 127.0.0.1 GET www.mobile.com/theme/default//static/home/images/favicon.png
+[运行时间：0.026001s] [吞吐率：38.46req/s] [内存消耗：1,218.12kb] [文件加载：50]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-05T20:42:01+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,675.30kb] [文件加载：59]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:42:06+08:00] 127.0.0.1 GET www.mobile.com/home/login/login
+[运行时间：0.051003s] [吞吐率：19.61req/s] [内存消耗：1,734.25kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:42:32+08:00] 127.0.0.1 GET www.mobile.com/
+[运行时间：0.032001s] [吞吐率：31.25req/s] [内存消耗：1,675.30kb] [文件加载：59]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:42:50+08:00] 127.0.0.1 GET www.mobile.com/home/login/login
+[运行时间：0.042002s] [吞吐率：23.81req/s] [内存消耗：1,734.25kb] [文件加载：62]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\login\login.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:43:16+08:00] 127.0.0.1 GET www.mobile.com/home/login/reg
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,864.59kb] [文件加载：64]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\login\reg.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:44:01+08:00] 127.0.0.1 GET www.mobile.com/home/login/register
+[运行时间：0.110006s] [吞吐率：9.09req/s] [内存消耗：1,866.95kb] [文件加载：64]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\login\register.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-05T20:44:31+08:00] 127.0.0.1 GET www.mobile.com/login
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,712.44kb] [文件加载：61]
+[ info ] [ LANG ] D:\php\code\mobileProject\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'home/login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4741105664; pgv_si=s4979404800',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\login\login.html [ array (
+) ]
