@@ -21,6 +21,7 @@ return [
 //首页
 Route::any('/','home/index/index')->name('/');//首页
 Route::any('login','home/login/login')->name('login');//登录
+Route::any('geetestLib','home/login/geetestLib')->name('geetestLib');//极验验证
 Route::any('register','home/login/register')->name('register');//注册
 
 //动态

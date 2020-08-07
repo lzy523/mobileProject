@@ -28,11 +28,16 @@ class ComposerStaticInit7058240ebe4e2658b64e40752f74e921
         ),
     );
 
+    public static $classMap = array (
+        'GeetestLib' => __DIR__ . '/..' . '/geetest/GeetestLib.class.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit7058240ebe4e2658b64e40752f74e921::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit7058240ebe4e2658b64e40752f74e921::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit7058240ebe4e2658b64e40752f74e921::$classMap;
 
         }, null, ClassLoader::class);
     }
