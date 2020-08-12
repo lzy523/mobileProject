@@ -21,8 +21,10 @@ return [
 //首页
 Route::any('/','home/index/index')->name('/');//首页
 Route::any('login','home/login/login')->name('login');//登录
-Route::any('geetestLib','home/login/geetestLib')->name('geetestLib');//极验验证
+Route::get('geetestLib','home/login/geetestLib')->name('geetestLib');//极验验证
 Route::any('register','home/login/register')->name('register');//注册
+//Route::any('captcha','home/login/captcha')->name('captcha');//验证码不能要路由 配置项不生效
+Route::get('logout','home/login/logout')->name('logout');//退出
 
 //动态
 Route::get('message','home/message/message')->name('message');//动态

@@ -1,4 +1,4 @@
-<?php /*a:2:{s:75:"D:\php\code\mobileProject\mProject\application\home\view\member\member.html";i:1596678971;s:68:"D:\php\code\mobileProject\mProject\application\home\view\parent.html";i:1596676150;}*/ ?>
+<?php /*a:2:{s:75:"D:\php\code\mobileProject\mProject\application\home\view\member\member.html";i:1597138859;s:68:"D:\php\code\mobileProject\mProject\application\home\view\parent.html";i:1596874543;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -32,11 +32,11 @@
 	    </header>
 	    <div style="height: 49px;"></div>
 	    <div class="member">
-	    	<div class="mem-tit">15078921546 
+	    	<div class="mem-tit">15078921546
 	    		<a href="step.html" class="step"><img src="/static/home/images/step.png" width="26"/></a>
 	    	</div>
 	    	<div class="mem-pic">
-		    	<div class="mem-pic-bg" style="background-image: url(/static/home/images/memtx.png);"></div>
+                <div class="mem-pic-bg" style="background-image: url(/static/home/images/memtx.png);"></div>
 	    	</div>
 	    	<ul class="member-menu">
 			<li>
@@ -148,7 +148,7 @@
       </li>
       <li>
         <div class="am-gallery-item">
-            <a href="" class="">
+            <a href="<?php echo url('logout'); ?>" class="logout">
               <img src="/static/home/images/m_09.png" />
               <p>安全退出</p>
             </a>
@@ -179,32 +179,32 @@
 <div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default sq-foot am-no-layout" id="">
  <ul class="am-navbar-nav am-cf am-avg-sm-5">
   <li>
-   <a href="index.html" class="curr">
+   <a href="<?php echo url('/'); ?>" class="curr">
     <span class="am-icon-home"></span>
     <span class="am-navbar-label">首页</span>
    </a>
   </li>
   <li>
-   <a href="message.html" class="">
+   <a href="<?php echo url('message'); ?>" class="">
     <span class="am-icon-comments"></span>
     <span class="am-navbar-label">动态</span>
    </a>
   </li>
   <li>
-   <a href="shopcart.html" class="">
+   <a href="<?php echo url('cart'); ?>" class="">
     <span class="am-icon-shopping-cart"></span>
     <span class="am-navbar-label">购物车</span>
    </a>
   </li>
   <li>
-   <a href="allorder.html" class="">
+   <a href="<?php echo url('order'); ?>" class="">
     <span class="am-icon-file-text"></span>
     <span class="am-navbar-label">订单</span>
    </a>
   </li>
 
   <li>
-   <a href="member.html" class="">
+   <a href="<?php echo url('member'); ?>" class="">
     <span class="am-icon-user"></span>
     <span class="am-navbar-label">我的</span>
    </a>
@@ -222,6 +222,21 @@
  
 <script src="/static/home/js/jquery.min.js"></script>
 <script src="/static/home/js/amazeui.min.js"></script>
+<script src="/static/home/js/layer/layer.js"></script>
+
+<script>
+	$('.logout').click(function () {
+		$.get($(this).attr('href'),"",function (data) {
+			if(data.status==='ok'){
+				layer.msg(data.msg,{icon:6,time:1000,shade:[0.5]},function () {
+					location.reload(true)
+				})
+			}
+		},'json')
+		return false
+	})
+</script>
+
 
 </body>
 </html>

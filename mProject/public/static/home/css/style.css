@@ -131,7 +131,8 @@
 .login-logo{ text-align: center;  margin: 3rem 0;}
 .login-logo img { width: 240px;}
 .login-name{    margin: 0 5%; width: 90%; font-size: 1.4rem; padding: 1rem;border-radius: 5px; border: 1px solid #ddd;}
-.login-password {margin: 1.5rem 5%; width: 90%; font-size: 1.4rem;padding: 1rem; border-radius: 5px;border: 1px solid #ddd;}
+ .login-password {margin: 1.5rem  5% 0; width: 90%; font-size: 1.4rem;padding: 1rem; border-radius: 5px;border: 1px solid #ddd;}
+ .login-repwd{    margin: 1.5rem  5% 0; width: 90%; font-size: 1.4rem; padding: 1rem;border-radius: 5px; border: 1px solid #ddd;}
 .login-verify {margin: 1.5rem 5%; width: 90%; font-size: 1.4rem;padding: 1rem; border-radius: 5px;}
 .login-btn{margin: 1.5rem 5%; border: 0; color: #fff; width: 90%; font-size: 1.6rem; padding: 1rem;border-radius: 5px; background: #cb2527;}
 .reg-btn{margin: 0rem 5%; border: 0; color: #fff; width: 90%; font-size: 1.6rem; padding: 1rem;border-radius: 5px; background: #76bb2a;}
