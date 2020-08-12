@@ -1,10 +1,14 @@
 <?php
 namespace app\home\controller;
 
+use app\common\model\Paint;
+
 class Index
 {
     public function index()
     {
-        return view();
+        //特色专区商品展示
+        $goods = Paint::order('saled_num','desc')->limit('8')->select();
+        return view('',compact('goods'));
     }
 }

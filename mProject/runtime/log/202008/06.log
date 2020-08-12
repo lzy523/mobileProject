@@ -1818,3 +1818,1866 @@
 )
 [ info ] [ VIEW ] D:\php\code\mobileProject\mProject\application\home\view\member\member.html [ array (
 ) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:20:48+08:00] 127.0.0.1 GET www.mobile.com/member
+[运行时间：0.273016s] [吞吐率：3.66req/s] [内存消耗：1,721.84kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'member',
+  'route' => 'home/member/member',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\member.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:20:52+08:00] 127.0.0.1 GET www.mobile.com/static/home/theme/default/images/favicon.png
+[运行时间：0.267015s] [吞吐率：3.75req/s] [内存消耗：1,232.15kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:21:11+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.083005s] [吞吐率：12.05req/s] [内存消耗：1,232.13kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:46:59+08:00] 127.0.0.1 GET www.mobile.com/member
+[运行时间：0.199012s] [吞吐率：5.02req/s] [内存消耗：1,949.63kb] [文件加载：66]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'member',
+  'route' => 'home/member/member',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\member.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:47:01+08:00] 127.0.0.1 GET www.mobile.com/member
+[运行时间：0.031001s] [吞吐率：32.26req/s] [内存消耗：1,783.95kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'member',
+  'route' => 'home/member/member',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\member.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:47:04+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,850.01kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:47:04+08:00] 127.0.0.1 GET www.mobile.com/css/amazeui.min.css
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,234.96kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:47:04+08:00] 127.0.0.1 GET www.mobile.com/css/style.css
+[运行时间：0.042002s] [吞吐率：23.81req/s] [内存消耗：1,234.96kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:47:05+08:00] 127.0.0.1 GET www.mobile.com/js/jquery-1.10.2.min.js
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：1,211.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:47:05+08:00] 127.0.0.1 GET www.mobile.com/js/time.js
+[运行时间：0.028001s] [吞吐率：35.71req/s] [内存消耗：1,234.96kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:47:05+08:00] 127.0.0.1 GET www.mobile.com/js/jquery.min.js
+[运行时间：0.024001s] [吞吐率：41.67req/s] [内存消耗：1,234.96kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:47:05+08:00] 127.0.0.1 GET www.mobile.com/js/amazeui.min.js
+[运行时间：0.043002s] [吞吐率：23.25req/s] [内存消耗：1,234.96kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:47:06+08:00] 127.0.0.1 GET www.mobile.com/images/ka.png
+[运行时间：0.025001s] [吞吐率：40.00req/s] [内存消耗：1,234.96kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:47:06+08:00] 127.0.0.1 GET www.mobile.com/images/weichong.png
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：1,234.96kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:47:07+08:00] 127.0.0.1 GET www.mobile.com/theme/default/images/favicon.png
+[运行时间：0.031001s] [吞吐率：32.26req/s] [内存消耗：1,234.96kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:51:50+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.041003s] [吞吐率：24.39req/s] [内存消耗：1,850.68kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:52:22+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.109006s] [吞吐率：9.17req/s] [内存消耗：1,719.78kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:52:27+08:00] 127.0.0.1 GET www.mobile.com/integral.html
+[运行时间：0.025002s] [吞吐率：40.00req/s] [内存消耗：1,235.01kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:54:22+08:00] 127.0.0.1 GET www.mobile.com/integral.html
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,235.01kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:54:42+08:00] 127.0.0.1 GET www.mobile.com/member.html
+[运行时间：0.046002s] [吞吐率：21.74req/s] [内存消耗：1,783.96kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'member',
+  'route' => 'home/member/member',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\member.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:54:44+08:00] 127.0.0.1 GET www.mobile.com/member.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,783.97kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'member',
+  'route' => 'home/member/member',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\member.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:54:45+08:00] 127.0.0.1 GET www.mobile.com/index.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,697.45kb] [文件加载：57]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-06T16:54:50+08:00] 127.0.0.1 GET www.mobile.com/index
+[运行时间：0.056003s] [吞吐率：17.86req/s] [内存消耗：1,697.00kb] [文件加载：57]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-08-06T16:55:14+08:00] 127.0.0.1 GET www.mobile.com/member
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,783.56kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'member',
+  'route' => 'home/member/member',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\member.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:55:19+08:00] 127.0.0.1 GET www.mobile.com/member.html
+[运行时间：0.037003s] [吞吐率：27.02req/s] [内存消耗：1,783.96kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'member',
+  'route' => 'home/member/member',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\member.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:55:22+08:00] 127.0.0.1 GET www.mobile.com/integral.html
+[运行时间：0.027001s] [吞吐率：37.04req/s] [内存消耗：1,235.01kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:59:04+08:00] 127.0.0.1 GET www.mobile.com/integral.html
+[运行时间：0.044003s] [吞吐率：22.73req/s] [内存消耗：1,853.73kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'integral',
+  'route' => 'home/member/integral',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\integral.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T16:59:06+08:00] 127.0.0.1 GET www.mobile.com/integralexchange.html
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,237.91kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T16:59:15+08:00] 127.0.0.1 GET www.mobile.com/collect.html
+[运行时间：0.049003s] [吞吐率：20.41req/s] [内存消耗：1,237.88kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:01:29+08:00] 127.0.0.1 GET www.mobile.com/collect.html
+[运行时间：0.089005s] [吞吐率：11.24req/s] [内存消耗：1,885.00kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'collect',
+  'route' => 'home/member/collect',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\collect.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:01:29+08:00] 127.0.0.1 GET www.mobile.com/css/amazeui.min.css
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,240.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:01:29+08:00] 127.0.0.1 GET www.mobile.com/css/style.css
+[运行时间：0.057004s] [吞吐率：17.54req/s] [内存消耗：1,240.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:01:30+08:00] 127.0.0.1 GET www.mobile.com/css/check.css
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,240.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:01:30+08:00] 127.0.0.1 GET www.mobile.com/js/jquery-1.10.2.min.js
+[运行时间：0.058004s] [吞吐率：17.24req/s] [内存消耗：1,217.24kb] [文件加载：49]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:01:30+08:00] 127.0.0.1 GET www.mobile.com/images/test10.png
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,240.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:01:32+08:00] 127.0.0.1 GET www.mobile.com/collect.html
+[运行时间：0.031001s] [吞吐率：32.26req/s] [内存消耗：1,735.77kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'collect',
+  'route' => 'home/member/collect',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\collect.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:01:33+08:00] 127.0.0.1 GET www.mobile.com/css/amazeui.min.css
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：1,240.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:01:33+08:00] 127.0.0.1 GET www.mobile.com/css/style.css
+[运行时间：0.048003s] [吞吐率：20.83req/s] [内存消耗：1,240.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:01:34+08:00] 127.0.0.1 GET www.mobile.com/css/check.css
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,240.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:01:34+08:00] 127.0.0.1 GET www.mobile.com/js/jquery-1.10.2.min.js
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,217.24kb] [文件加载：49]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:01:34+08:00] 127.0.0.1 GET www.mobile.com/images/test10.png
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,240.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:02:22+08:00] 127.0.0.1 GET www.mobile.com/collect.html
+[运行时间：0.034001s] [吞吐率：29.41req/s] [内存消耗：1,885.09kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'collect',
+  'route' => 'home/member/collect',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\collect.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:02:22+08:00] 127.0.0.1 GET www.mobile.com/images/test10.png
+[运行时间：0.040002s] [吞吐率：25.00req/s] [内存消耗：1,240.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:03:12+08:00] 127.0.0.1 GET www.mobile.com/collect.html
+[运行时间：0.055003s] [吞吐率：18.18req/s] [内存消耗：1,885.09kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'collect',
+  'route' => 'home/member/collect',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\collect.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:03:22+08:00] 127.0.0.1 GET www.mobile.com/yhq.html
+[运行时间：0.023001s] [吞吐率：43.48req/s] [内存消耗：1,240.44kb] [文件加载：50]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-06T17:06:45+08:00] 127.0.0.1 GET www.mobile.com/yhq.html
+[运行时间：0.044003s] [吞吐率：22.73req/s] [内存消耗：1,863.73kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'yhq',
+  'route' => 'home/member/yhq',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\yhq.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:06:48+08:00] 127.0.0.1 GET www.mobile.com/yhq.html
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：1,729.91kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'yhq',
+  'route' => 'home/member/yhq',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/yhq.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\yhq.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:07:48+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.060004s] [吞吐率：16.67req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:07:51+08:00] 127.0.0.1 GET www.mobile.com/integral.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,727.77kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'integral',
+  'route' => 'home/member/integral',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\integral.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:07:53+08:00] 127.0.0.1 GET www.mobile.com/yhq.html
+[运行时间：0.044003s] [吞吐率：22.73req/s] [内存消耗：1,729.92kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'yhq',
+  'route' => 'home/member/yhq',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\yhq.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:07:55+08:00] 127.0.0.1 GET www.mobile.com/collect.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,737.61kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'collect',
+  'route' => 'home/member/collect',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\collect.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:31+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:34+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:41+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.028001s] [吞吐率：35.71req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:42+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.031001s] [吞吐率：32.26req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:43+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:43+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:43+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.048003s] [吞吐率：20.83req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:44+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:57+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:58+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.031001s] [吞吐率：32.26req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:58+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:08:59+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,727.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:15:55+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：1,731.33kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:15:57+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：1,730.75kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:15:58+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.034002s] [吞吐率：29.41req/s] [内存消耗：1,730.75kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:15:59+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：1,730.75kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:16:38+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：1,929.60kb] [文件加载：66]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:16:39+08:00] 127.0.0.1 GET www.mobile.com/recharge.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,862.47kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'recharge',
+  'route' => 'home/member/recharge',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\recharge.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:16:41+08:00] 127.0.0.1 GET www.mobile.com/recharge.html
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：1,732.24kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'recharge',
+  'route' => 'home/member/recharge',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/recharge.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\recharge.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:16:43+08:00] 127.0.0.1 GET www.mobile.com/recharge.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,732.24kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'recharge',
+  'route' => 'home/member/recharge',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/recharge.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\recharge.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:16:43+08:00] 127.0.0.1 GET www.mobile.com/recharge.html
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,732.24kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'recharge',
+  'route' => 'home/member/recharge',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/recharge.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\recharge.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T17:18:16+08:00] 127.0.0.1 GET www.mobile.com/collect.html
+[运行时间：0.046003s] [吞吐率：21.74req/s] [内存消耗：1,740.98kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'collect',
+  'route' => 'home/member/collect',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\collect.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T18:52:32+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.243014s] [吞吐率：4.11req/s] [内存消耗：1,787.73kb] [文件加载：64]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T18:52:35+08:00] 127.0.0.1 GET www.mobile.com/recharge.html
+[运行时间：0.071004s] [吞吐率：14.08req/s] [内存消耗：1,732.24kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'recharge',
+  'route' => 'home/member/recharge',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\recharge.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T19:58:27+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：1.519087s] [吞吐率：0.66req/s] [内存消耗：3,237.75kb] [文件加载：79]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+  0 => 'money',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.524030s ] mysql:host=172.16.3.100;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT `money` FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.005000s ]
+---------------------------------------------------------------
+
+[2020-08-06T19:58:27+08:00] 127.0.0.1 GET www.mobile.com/records.html
+[运行时间：0.065003s] [吞吐率：15.38req/s] [内存消耗：3,107.22kb] [文件加载：77]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'records',
+  'route' => 'home/member/records',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/member.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\records.html [ array (
+  0 => 'money',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=172.16.3.100;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `money` FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+
+[2020-08-06T19:58:51+08:00] 127.0.0.1 GET www.mobile.com/recharge.html
+[运行时间：0.414024s] [吞吐率：2.42req/s] [内存消耗：1,734.22kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'recharge',
+  'route' => 'home/member/recharge',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848; PHPSESSID=94u29j1aop94d1ijnnfhmopenp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/records.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\recharge.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T19:58:57+08:00] 127.0.0.1 GET www.mobile.com/recharge.html
+[运行时间：0.029002s] [吞吐率：34.48req/s] [内存消耗：1,734.22kb] [文件加载：62]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'recharge',
+  'route' => 'home/member/recharge',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848; PHPSESSID=94u29j1aop94d1ijnnfhmopenp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/recharge.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\recharge.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-08-06T20:00:34+08:00] 127.0.0.1 GET www.mobile.com/recharge.html
+[运行时间：0.300017s] [吞吐率：3.33req/s] [内存消耗：3,183.30kb] [文件加载：77]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'recharge',
+  'route' => 'home/member/recharge',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848; PHPSESSID=94u29j1aop94d1ijnnfhmopenp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/recharge.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\recharge.html [ array (
+  0 => 'money',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.146008s ] mysql:host=172.16.3.100;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT `money` FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+
+[2020-08-06T20:01:37+08:00] 127.0.0.1 GET www.mobile.com/recharge.html
+[运行时间：0.071004s] [吞吐率：14.08req/s] [内存消耗：3,183.32kb] [文件加载：77]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'recharge',
+  'route' => 'home/member/recharge',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848; PHPSESSID=94u29j1aop94d1ijnnfhmopenp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/recharge.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\recharge.html [ array (
+  0 => 'money',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009001s ] mysql:host=172.16.3.100;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `money` FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+
+[2020-08-06T20:03:13+08:00] 127.0.0.1 GET www.mobile.com/recharge.html
+[运行时间：0.081005s] [吞吐率：12.34req/s] [内存消耗：3,183.23kb] [文件加载：77]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'recharge',
+  'route' => 'home/member/recharge',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848; PHPSESSID=94u29j1aop94d1ijnnfhmopenp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/recharge.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\recharge.html [ array (
+  0 => 'money',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:host=172.16.3.100;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `money` FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003001s ]
+---------------------------------------------------------------
+
+[2020-08-06T20:03:14+08:00] 127.0.0.1 GET www.mobile.com/recharge.html
+[运行时间：0.057003s] [吞吐率：17.54req/s] [内存消耗：3,052.68kb] [文件加载：75]
+[ info ] [ LANG ] D:\APM\ThinkPhp\mProject\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'recharge',
+  'route' => 'home/member/recharge',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1756048384; pgv_si=s6998350848; PHPSESSID=94u29j1aop94d1ijnnfhmopenp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mobile.com/recharge.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mobile.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\APM\ThinkPhp\mProject\application\home\view\member\recharge.html [ array (
+  0 => 'money',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=172.16.3.100;port=3306;dbname=one;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT `money` FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003000s ]
