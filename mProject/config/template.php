@@ -35,7 +35,8 @@ return [
 
     //自定义静态文件模板常量
     'tpl_replace_string' => [
-        '__STATIC__' => '/static/home'
+        '__STATIC__' => '/static/home',
+        '__IMGURL__' => 'http://www.apm.com',
     ],
 
 ];

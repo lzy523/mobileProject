@@ -6,6 +6,6 @@ use think\Model;
 
 class User extends Model
 {
-    // 璁剧疆褰撳墠妯″瀷瀵瑰簲鐨勫畬鏁存暟鎹〃鍚嶇О
+    // 设置当前模型对应的完整数据表名称
     protected $table = 'user';
 }

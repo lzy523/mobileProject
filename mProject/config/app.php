@@ -143,6 +143,9 @@ return [
     // 异常处理handle类 留空使用 \think\exception\Handle
     'exception_handle'       => '',
 
+    //图片域名
+    'img_url'=>'http://www.apm.com'
+
 
     // +----------------------------------------------------------------------
     // | 其他设置

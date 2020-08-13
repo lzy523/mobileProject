@@ -1,3 +1,7 @@
 *
 !.gitignore
 log
+<<<<<<< HEAD
+=======
+/log
+>>>>>>> 3a4c99a285e1f6ef2769c6f7c658880f632a4f8a
