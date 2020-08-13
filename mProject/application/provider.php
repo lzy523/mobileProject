@@ -11,4 +11,6 @@
 
 // 应用容器绑定定义
 return [
+    /*//注册极验验证类
+    geetest\GeetestLib::class,*/
 ];

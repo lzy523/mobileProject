@@ -11,4 +11,8 @@ class Index
         $goods = Paint::order('saled_num','desc')->limit('8')->select();
         return view('',compact('goods'));
     }
+    //空方法
+    public function _empty($name){
+        return $name.'方法不存在！';
+    }
 }

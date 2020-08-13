@@ -30,11 +30,11 @@
 	    </header>
 	    <div style="height: 49px;"></div>
 	    <div class="member">
-	    	<div class="mem-tit">15078921546 
+	    	<div class="mem-tit">15078921546
 	    		<a href="step.html" class="step"><img src="__STATIC__/images/step.png" width="26"/></a>
 	    	</div>
 	    	<div class="mem-pic">
-		    	<div class="mem-pic-bg" style="background-image: url(__STATIC__/images/memtx.png);"></div>
+                <div class="mem-pic-bg" style="background-image: url(__STATIC__/images/memtx.png);"></div>
 	    	</div>
 	    	<ul class="member-menu">
 			<li>
@@ -146,7 +146,7 @@
       </li>
       <li>
         <div class="am-gallery-item">
-            <a href="" class="">
+            <a href="{:url('logout')}" class="logout">
               <img src="__STATIC__/images/m_09.png" />
               <p>安全退出</p>
             </a>
@@ -183,5 +183,20 @@
  
 <script src="__STATIC__/js/jquery.min.js"></script>
 <script src="__STATIC__/js/amazeui.min.js"></script>
+<script src="__STATIC__/js/layer/layer.js"></script>
+
+<script>
+	$('.logout').click(function () {
+		$.get($(this).attr('href'),"",function (data) {
+			if(data.status==='ok'){
+				layer.msg(data.msg,{icon:6,time:1000,shade:[0.5]},function () {
+					location.reload(true)
+				})
+			}
+		},'json')
+		return false
+	})
+</script>
+
 {/block}
 

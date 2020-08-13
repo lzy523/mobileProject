@@ -1,4 +1,4 @@
-<?php /*a:2:{s:73:"D:\php\code\mobileProject\mProject\application\home\view\index\index.html";i:1596676150;s:68:"D:\php\code\mobileProject\mProject\application\home\view\parent.html";i:1596676150;}*/ ?>
+<?php /*a:2:{s:73:"D:\php\code\mobileProject\mProject\application\home\view\index\index.html";i:1596676150;s:68:"D:\php\code\mobileProject\mProject\application\home\view\parent.html";i:1596874543;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -216,32 +216,32 @@
 <div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default sq-foot am-no-layout" id="">
  <ul class="am-navbar-nav am-cf am-avg-sm-5">
   <li>
-   <a href="index.html" class="curr">
+   <a href="<?php echo url('/'); ?>" class="curr">
     <span class="am-icon-home"></span>
     <span class="am-navbar-label">首页</span>
    </a>
   </li>
   <li>
-   <a href="message.html" class="">
+   <a href="<?php echo url('message'); ?>" class="">
     <span class="am-icon-comments"></span>
     <span class="am-navbar-label">动态</span>
    </a>
   </li>
   <li>
-   <a href="shopcart.html" class="">
+   <a href="<?php echo url('cart'); ?>" class="">
     <span class="am-icon-shopping-cart"></span>
     <span class="am-navbar-label">购物车</span>
    </a>
   </li>
   <li>
-   <a href="allorder.html" class="">
+   <a href="<?php echo url('order'); ?>" class="">
     <span class="am-icon-file-text"></span>
     <span class="am-navbar-label">订单</span>
    </a>
   </li>
 
   <li>
-   <a href="member.html" class="">
+   <a href="<?php echo url('member'); ?>" class="">
     <span class="am-icon-user"></span>
     <span class="am-navbar-label">我的</span>
    </a>
